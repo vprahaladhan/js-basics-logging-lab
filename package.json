@@ -31,5 +31,8 @@
     "chai": "~4.1.0",
     "mocha": "^5.2.0",
     "sinon": "~7.2.3"
+  },
+  "dependencies": {
+    "mocha-multi": "^1.1.3"
   }
 }
