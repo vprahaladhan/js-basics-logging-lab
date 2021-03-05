@@ -4,8 +4,7 @@
   "description": "Learn.co's JavaScript Logging Lab.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "gem install learn-co",
-    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --server --files "
   },
   "repository": {
     "type": "git",
@@ -28,6 +27,9 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/js-basics-logging-lab#readme",
   "devDependencies": {
-    "learn-browser": "^0.1.13"
+    "browser-sync": "~2.21.0",
+    "chai": "~4.1.0",
+    "mocha": "^5.2.0",
+    "sinon": "~7.2.3"
   }
 }
